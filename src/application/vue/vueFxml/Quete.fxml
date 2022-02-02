@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controler.ControleurMenu">
+   <children>
+      <VBox layoutY="-2.0" prefHeight="593.0" prefWidth="768.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="758.0">
+               <children>
+                  <ImageView fx:id="flecheRetourQuete" fitHeight="68.0" fitWidth="88.0" onMouseClicked="#retourQuete" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ressources/flecheRetour.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" prefHeight="41.0" prefWidth="631.0" text="La quête du heros" textFill="#ff0d0d">
+                     <font>
+                        <Font name="Harvest Regular" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </HBox>
+            <Text fill="#11b139" strokeType="OUTSIDE" strokeWidth="0.0" text="Bonjour jeune guerrier intrépide, vous vous apprêtez à entrer dans un monde pollué par le mal et ses sbires, qui ne vous laisseront aucune chance, si vous ne prêtez pas attention à ce qui se passe autour de vous." wrappingWidth="746.1367797851562">
+               <font>
+                  <Font name="Marlett" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#11b139" strokeType="OUTSIDE" strokeWidth="0.0" text="Heureusement, je suis là pour vous aider, je vais vous indiquer la marche à suivre pour vaincre les individus présents dans cette zone. Êtes-vous prêt jeune aventurier ?" wrappingWidth="746.1367797851562">
+               <font>
+                  <Font name="Marlett" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#11b139" strokeType="OUTSIDE" strokeWidth="0.0" text="Pour commencer, vous allez devoir vous rendre dans la zone des gobelins afin de débarrasser les lieux de ces brigands. Vous pourrez ainsi avoir accès au premier coffre, et récupérer une baguette magique, vous permettant ainsi d’agresser vos ennemis à distance. Ensuite vous devrez vous rendre au sanctuaire des magiciens au nord est. Mais sur votre passage, vous serez confronté à deux tronc d'arbre vous bloquant le passage. Pas de panique ! Grâce à votre épée, vous pourrez les couper facilement. Vous voilà face aux magiciens qui gardent cette zone. Ces derniers possèdent également une baguette magique, leur permettant ainsi de vous attaquer à distance. Cependant, si vous arrivez à vous en défaire, vous obtiendrez une récompense. Et quelle récompense ! En effet, il s’agira du bouclier, un objet indispensable pour la suite de votre quête. Avant de quitter cette zone conquise, je vous invite, jeune héros, à casser les deux seuls arbres saints de cette parcelle du monde. Ces derniers vous donneront les ressources nécessaires à la construction d’un bateau, plus bas dans la zone. Si vous arrivez à construire ce bateau, (magique, soit dit en passant), vous arriverez sur une petite île, où un coffre sacré y est planté . Ce coffre va vous permettre de récupérer l’un des joyaux de ce monde, une bague qui est entrée en contact avec la triforce. Cette dernière vous conférera un bonus d'habilité pour la suite de votre aventure." wrappingWidth="746.1367797851562">
+               <font>
+                  <Font name="Marlett" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#11b139" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous voilà enfin prêt à affronter le maître de ces lieux, présent dans le donjon obscur de la zone. Sur votre route vers la place de l’affrontement décisif, vous serez amené à rencontrer les vipères, qui pullulent en ces terres. N'essayez pas de les tuer, c’est inutile car ces dernières sont protégées par un sort démoniaque, les rendant extrêmement résistantes. Contentez vous de les éviter. Vous voilà enfin face à l’immondice qui gouverne ces lieux. Il ne restera plus qu'à l'abattre, mais ce ne sera pas mince affaire. " wrappingWidth="746.1367797851562">
+               <font>
+                  <Font name="Marlett" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#11b139" strokeType="OUTSIDE" strokeWidth="0.0" text="Sa défaite vous permettra d’obtenir la triforce du courage, qui est l’un des trésors restants de ce monde détruit. " wrappingWidth="746.1367797851562">
+               <font>
+                  <Font name="Marlett" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#11b139" strokeType="OUTSIDE" strokeWidth="0.0" text="Je vais vous laisser sur ces mots, aventurier, en espérant bien sûr vous revoir bientôt." wrappingWidth="746.1367797851562">
+               <font>
+                  <Font name="Marlett" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#11b139" strokeType="OUTSIDE" strokeWidth="0.0" text="Bonne chance, et que la déesse Hylia soit de votre côté." wrappingWidth="746.1367797851562">
+               <font>
+                  <Font name="Marlett" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </VBox>
+      <ImageView fitHeight="98.0" fitWidth="101.0" layoutX="631.0" layoutY="542.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../ressources/hero-char.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

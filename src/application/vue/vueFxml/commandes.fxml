@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controler.ControleurMenu">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" prefHeight="45.0" prefWidth="411.0" text="Commandes" textAlignment="CENTER" textFill="#ff0d0d">
+         <font>
+            <Font name="Harvest Regular" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="flecheRetourCommandes" fitHeight="68.0" fitWidth="72.0" layoutY="11.0" onMouseClicked="#retourCommandes" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../ressources/flecheRetour.png" />
+         </image>
+      </ImageView>
+      <VBox layoutY="138.0" prefHeight="363.0" prefWidth="378.0">
+         <children>
+            <Label text="Se déplacer : Z (haut), S (bas)," textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label prefHeight="27.0" prefWidth="349.0" text="                    Q (gauche), D (droite)" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <Label text="Interragir : E" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Attaquer : +" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Épée : 1" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Arc : 2" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Bouclier : 3" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Inventaire : i" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Menu des commandes : echap" textFill="#12b037">
+               <font>
+                  <Font name="Harvest Regular" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="20.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</Pane>
